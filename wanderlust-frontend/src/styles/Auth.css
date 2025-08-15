@@ -1,0 +1,79 @@
+/* ✅ Auth.css – modern login/register styling */
+
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* 📄 src/styles/Auth.css – Profile UI Enhancements */
+
+.profile-card {
+  padding: 1.5rem;
+  background-color: #f5faff;
+  border: 1px solid #dbe9f5;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.profile-row:last-child {
+  border-bottom: none;
+}
+
+.profile-icon {
+  color: #007bff;
+  font-size: 18px;
+  flex-shrink: 0;
+}

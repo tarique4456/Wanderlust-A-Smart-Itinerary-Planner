@@ -1,0 +1,216 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+
+  /* ✅ Background image */
+  background-image: url("https://media.istockphoto.com/id/1199496434/video/4k-abstract-particle-wave-bokeh-background-blue-water-snow-beautiful-glitter-loop.jpg?s=640x640&k=20&c=wJZnP92dlyTfrnhzG_dQ8atT77i0u3vX6_qBXhx7-WE=");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+}
+
+/* ✅ Modern Navbar Styling */
+.app-header {
+  background-color: #1c2833;
+  color: white;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.app-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.app-header nav a,
+.app-header nav span {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.app-header nav a:hover,
+.app-header nav span:hover {
+  background-color: #34495e;
+}
+
+.app-header nav button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.app-header nav button:hover {
+  background-color: #c0392b;
+}
+
+/* Add this to your existing CSS */
+.app-header nav .user-email-link {
+  color: #00eaff;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.app-header nav .user-email-link:hover {
+  color: #ffffff;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  backdrop-filter: blur(6px);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: -40px auto 30px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* .itinerary {
+  background: #fefefe;
+  padding: 20px;
+  border-left: 4px solid #2ecc71;
+  margin: 20px 0;
+  border-radius: 8px;
+  text-align: left;
+} */
+
+.itinerary {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: left;
+  backdrop-filter: blur(5px);
+}
+
+/* .saved-itinerary {
+  background: #ffffff;
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 4px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+} */
+
+.saved-itinerary {
+  background: rgba(255, 255, 255, 0.88);
+  border-left: 5px solid #007bff;
+  padding: 18px 22px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+/* ✅ Home Page Enhancements */
+
+.home-banner {
+  background-image: url("https://www.shutterstock.com/image-photo/palm-tree-on-tropical-beach-600nw-2154569741.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px 40px;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+}
+
+.home-banner h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 600px;
+  margin: -40px auto 30px;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.itinerary {
+  background-color: #f8f9fa;
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.saved-itinerary {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-left: 5px solid #007bff;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+

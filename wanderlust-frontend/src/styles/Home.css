@@ -1,0 +1,148 @@
+/* ✅ src/styles/Home.css – Enhanced modern look */
+
+.home-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 2.5rem;
+  background: linear-gradient(to bottom right, #f8fcff, #eef3f7);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.home-banner {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-banner h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.home-banner p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.form-container input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+.form-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-container button {
+  grid-column: span 2;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.form-container button:hover {
+  background: #0056b3;
+}
+
+.itinerary {
+  margin-top: 30px;
+  padding: 1.5rem;
+  background: #fcfeff;
+  border-radius: 12px;
+  line-height: 1.6;
+  font-size: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  border-left: 6px solid #007bff;
+}
+
+.itinerary h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.saved-itinerary {
+  background: #eef5fb;
+  margin-top: 15px;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 5px solid #007bff;
+}
+
+.saved-itinerary h4 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.chatbot-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+.chatbot-button:hover {
+  background-color: #0051ba;
+}
+
+/* ✅ Add this at the bottom of your existing Home.css */
+
+.form-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+  border-left: 6px solid #007bff;
+}
+
+.form-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-align: center;
+}
+
+/* 📌 Button styling consistent with rest of the site */
+.show-more-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+.show-more-button:hover {
+  background-color: #0056b3;
+}

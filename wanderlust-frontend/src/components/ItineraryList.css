@@ -1,0 +1,87 @@
+/* src/components/ItineraryList.css */
+.itinerary-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.itinerary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.itinerary-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: 0.3s;
+}
+
+.itinerary-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-box {
+  padding: 8px;
+  margin: 15px auto;
+  width: 60%;
+  max-width: 400px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+/* Modern Saved Itinerary Card Styles */
+
+.saved-itinerary-card {
+  background: #fcfeff; /* Light card background */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+  border-left: 5px solid #007bff;
+}
+
+.saved-itinerary-card:hover {
+  transform: translateY(-4px);
+}
+.saved-itinerary-card h4 {
+  font-size: 1.4rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.saved-itinerary-card p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.saved-itinerary-card pre {
+  background: #f9f9f9;
+  padding: 14px;
+  border-radius: 10px;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #444;
+  white-space: pre-wrap;
+}
+
+/* 📁 src/components/ItineraryList.css */
+
+.generated-itinerary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* clean readable font */
+  font-size: 1rem; /* normal readable size */
+  font-weight: 400; /* regular weight */
+  color: #333; /* dark gray for better visibility */
+  white-space: pre-wrap; /* preserve line breaks */
+  line-height: 1.6;
+}

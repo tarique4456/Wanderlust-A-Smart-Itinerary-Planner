@@ -1,0 +1,45 @@
+/* ✅ SavedItineraries.css – clean design for saved plans */
+
+.saved-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.saved-container h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #007bff;
+}
+
+/* ✨ Modern card enhancements */
+.saved-itinerary-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.saved-itinerary-card:hover {
+  transform: translateY(-3px);
+}
+
+.saved-itinerary-card h4 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.saved-itinerary-card pre {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+
