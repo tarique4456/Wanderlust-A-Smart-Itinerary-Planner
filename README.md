@@ -29,7 +29,7 @@ Replace the URL above with a screenshot of your application.
     * OpenAI API
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -97,6 +97,6 @@ This project is distributed under the MIT License. See the LICENSE file for more
 
 ##  Contact
 
-Tarique Ansari - [tariqueansari1020@gmail.com] - [Link to your LinkedIn profile]
+Tarique Ansari - [tariqueansari1020@gmail.com] - [https://www.linkedin.com/in/tarique-ansari-3aba1a2a5]
 
 Project Link: [https://github.com/tarique4456/Wanderlust-A-Smart-Itinerary-Planner](https://github.com/tarique4456/Wanderlust-A-Smart-Itinerary-Planner)
